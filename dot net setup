@@ -2,8 +2,12 @@ To check if .net is installed just type  "dotnet" in the CMD
 To check the version of dot net  type "dotnet --version"
 To see all the dotnet commands type "dotnet new list"
 Generating a new dotnet application
-* First go to another drive except for the C drive 
-- inside the other drive type "new console -n coreConsoleProject"
-- The project will be generated
+  - First, go to another drive except for the C drive 
+  - inside the other drive type "new console -n coreConsoleProject"
+  - The project will be generated
+  - "code ." will open the VS code interface "D:\Dotnet Cousera\coreConsoleProject>code ."
 
-
+* Inside the VS code console open a terminal  and type "dotnet build" This will create the project
+  - PS D:\Dotnet Cousera\coreConsoleProject> dotnet build
+  - A Bin file will be created 
+  - the "dotnet run" command "PS D:\Dotnet Cousera\coreConsoleProject> dotnet run" runs the code and gives the out put eg: "Hello, World!"
