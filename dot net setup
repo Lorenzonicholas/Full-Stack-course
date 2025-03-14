@@ -11,3 +11,5 @@ Generating a new dotnet application
   - PS D:\Dotnet Cousera\coreConsoleProject> dotnet build
   - A Bin file will be created 
   - the "dotnet run" command "PS D:\Dotnet Cousera\coreConsoleProject> dotnet run" runs the code and gives the out put eg: "Hello, World!"
+
+* dotnet --help Provides general help for the .NET CLI commands
