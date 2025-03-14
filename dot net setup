@@ -1,7 +1,7 @@
-//To check if .net is installed just type  "dotnet" in the CMD
-//To check the version of dot net  type "dotnet --version"
-//To see all the dotnet commands type "dotnet new list"
-// Generating a new dotnet application
+To check if .net is installed just type  "dotnet" in the CMD
+To check the version of dot net  type "dotnet --version"
+To see all the dotnet commands type "dotnet new list"
+Generating a new dotnet application
 * First go to another drive except for the C drive 
 - inside the other drive type "new console -n coreConsoleProject"
 - The project will be generated
