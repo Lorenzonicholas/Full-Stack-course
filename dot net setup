@@ -12,4 +12,27 @@ Generating a new dotnet application
   - A Bin file will be created 
   - the "dotnet run" command "PS D:\Dotnet Cousera\coreConsoleProject> dotnet run" runs the code and gives the out put eg: "Hello, World!"
 
-* dotnet --help Provides general help for the .NET CLI commands
+*************************************************************************************************************************************************
+* The following steps are commands used in the .NET CLI (Command Line Interface) to create, build, and run an ASP.NET Core web application. Here's a breakdown of each step:
+
+  - Create a new ASP.NET Core web project
+
+      "dotnet new web --name=coreWebProject"
+
+This command creates a new ASP.NET Core web application.
+"dotnet new web" specifies that the project type is a minimal API web project (without controllers or Razor pages).
+"--name=coreWebProject" sets the project name to coreWebProject and creates a folder with that name.
+
+  - Build the project
+
+"dotnet build" This command compiles the application.
+It checks for errors in the code and generates necessary files in the bin/ directory.
+If there are any issues, they will be reported in the terminal.
+
+  - Run the project
+
+      "dotnet run"
+
+This starts the web application.
+The command runs the compiled application, launching the built-in Kestrel web server.
+The terminal will display a URL (like http://localhost:5000), where the web app can be accessed.
